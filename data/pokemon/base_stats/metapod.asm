@@ -14,7 +14,7 @@
 	db GROWTH_MEDIUM_FAST ; growth rate
 
 	; tm/hm learnset
-	tmhm
+	tmhm TOXIC,        MIMIC,        BIDE,         REST
 	; end
 
 	db 0 ; padding
