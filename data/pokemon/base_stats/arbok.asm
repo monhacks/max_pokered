@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         MEGA_DRAIN,   DRAGON_RAGE,  EARTHQUAKE,   FISSURE,      \
 	     DIG,          MIMIC,        DOUBLE_TEAM,  BIDE,         SWIFT,        \
-			 SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
+	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   STRENGTH
 	; end
 
 	db 0 ; padding
