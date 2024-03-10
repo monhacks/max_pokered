@@ -17,9 +17,9 @@
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
 	     SUBMISSION,   SEISMIC_TOSS, RAGE,         MEGA_DRAIN,   EARTHQUAKE,   \
-			 FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-			 SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
-			 STRENGTH,     FLASH
+	     FISSURE,      MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     SKULL_BASH,   REST,         ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
+	     STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding
