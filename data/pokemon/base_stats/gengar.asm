@@ -18,9 +18,9 @@
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         MEGA_DRAIN,   THUNDERBOLT,  THUNDER,      PSYCHIC_M,    \
 	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-			 METRONOME,    SELFDESTRUCT, SWIFT,        SKULL_BASH,   DREAM_EATER,  \
-			 REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   STRENGTH,     \
-			 FLASH
+	     METRONOME,    SELFDESTRUCT, SWIFT,        SKULL_BASH,   DREAM_EATER,  \
+	     REST,         PSYWAVE,      EXPLOSION,    SUBSTITUTE,   STRENGTH,     \
+	     FLASH
 	; end
 
 	db 0 ; padding
