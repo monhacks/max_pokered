@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         SOLARBEAM,    DRAGON_RAGE,  \
-			 PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-			 FIRE_BLAST,   SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST,         \
+	     PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     FIRE_BLAST,   SWIFT,        SKULL_BASH,   SKY_ATTACK,   REST,         \
 	     PSYWAVE,      SUBSTITUTE,   FLY,          FLASH
 	; end
 
