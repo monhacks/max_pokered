@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         THUNDERBOLT,  \
 	     THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-			 BIDE,         SELFDESTRUCT, SWIFT,        SKULL_BASH,   REST,         \
-			 THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
+	     BIDE,         SELFDESTRUCT, SWIFT,        SKULL_BASH,   REST,         \
+	     THUNDER_WAVE, EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
