@@ -20,8 +20,8 @@
 	     RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  REFLECT,      \
 	     BIDE,         METRONOME,    SELFDESTRUCT, FIRE_BLAST,   SKULL_BASH,   \
-	     REST,         PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   SURF,         \
-	     STRENGTH
+	     REST,         THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   TRI_ATTACK,   \
+			 SUBSTITUTE,   SURF,         STRENGTH
 	; end
 
 	db 0 ; padding

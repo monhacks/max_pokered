@@ -15,9 +15,10 @@
 
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   WHIRLWIND,    TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  \
-	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  MIMIC,        DOUBLE_TEAM,  \
-	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKY_ATTACK,   \
-	     REST,         SUBSTITUTE,   FLY
+	     HYPER_BEAM,   RAGE,         DRAGON_RAGE,  EARTHQUAKE,   MIMIC,        \
+			 DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
+			 SKULL_BASH,   SKY_ATTACK,   REST,         ROCK_SLIDE,   SUBSTITUTE,   \
+			 FLY
 	; end
 
 	db 0 ; padding
