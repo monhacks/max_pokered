@@ -17,7 +17,7 @@
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   RAGE,         \
 	     THUNDERBOLT,  THUNDER,      TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         SELFDESTRUCT, SWIFT,        REST,         \
-			 THUNDER_WAVE, EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLASH
+	     THUNDER_WAVE, EXPLOSION,    TRI_ATTACK,   SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
