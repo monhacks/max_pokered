@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm RAZOR_WIND,   SWORDS_DANCE, WHIRLWIND,    TOXIC,        BODY_SLAM,    \
 	     TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      RAGE,         \
-			 MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
-			 SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
-			 FLY
+	     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         METRONOME,    \
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   CUT,          \
+	     FLY
 	; end
 
 	db 0 ; padding
