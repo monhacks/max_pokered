@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  RAGE,         SOLARBEAM,    MIMIC,        DOUBLE_TEAM,  \
-			 REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-			 REST,         SUBSTITUTE,   FLASH
+	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
+	     REST,         SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
