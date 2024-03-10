@@ -16,8 +16,8 @@
 	; tm/hm learnset
 	tmhm TOXIC,        TAKE_DOWN,    DOUBLE_EDGE,  RAGE,         MEGA_DRAIN,   \
 	     SOLARBEAM,    PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  \
-			 REFLECT,      BIDE,         SELFDESTRUCT, EGG_BOMB,     REST,         \
-			 PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
+	     REFLECT,      BIDE,         SELFDESTRUCT, EGG_BOMB,     REST,         \
+	     PSYWAVE,      EXPLOSION,    SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
