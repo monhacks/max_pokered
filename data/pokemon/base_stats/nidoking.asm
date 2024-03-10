@@ -19,7 +19,7 @@
 	     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
 	     SEISMIC_TOSS, RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
 	     FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-			 BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
+	     BIDE,         METRONOME,    FIRE_BLAST,   SKULL_BASH,   REST,         \
 	     ROCK_SLIDE,   SUBSTITUTE,   CUT,          SURF,         STRENGTH
 	; end
 
