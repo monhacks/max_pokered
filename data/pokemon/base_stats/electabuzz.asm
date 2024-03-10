@@ -17,9 +17,9 @@
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, \
 	     RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   PSYCHIC_M,    \
-			 TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-			 METRONOME,    SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
-			 PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     FLASH
+	     TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
+	     METRONOME,    SWIFT,        SKULL_BASH,   REST,         THUNDER_WAVE, \
+	     PSYWAVE,      ROCK_SLIDE,   SUBSTITUTE,   STRENGTH,     FLASH
 	; end
 
 	db 0 ; padding
