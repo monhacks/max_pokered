@@ -17,8 +17,8 @@
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     PAY_DAY,      \
 	     RAGE,         MIMIC,        DOUBLE_TEAM,  REFLECT,      BIDE,         \
-			 SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
-			 STRENGTH
+	     SWIFT,        SKULL_BASH,   REST,         SUBSTITUTE,   SURF,         \
+	     STRENGTH
 	; end
 
 	db 0 ; padding
