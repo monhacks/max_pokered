@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  BUBBLEBEAM,   \
 	     WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   PAY_DAY,      \
-			 RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-			 BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
-			 SUBSTITUTE,   SURF,         FLASH
+	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   REST,         \
+	     SUBSTITUTE,   SURF,         FLASH
 	; end
 
 	db 0 ; padding
