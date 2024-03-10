@@ -16,10 +16,10 @@
 	; tm/hm learnset
 	tmhm MEGA_PUNCH,   MEGA_KICK,    TOXIC,        BODY_SLAM,    TAKE_DOWN,    \
 	     DOUBLE_EDGE,  HYPER_BEAM,   PAY_DAY,      SUBMISSION,   COUNTER,      \
-			 SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
-			 PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-			 BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   DREAM_EATER,  \
-			 REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   FLASH
+	     SEISMIC_TOSS, RAGE,         SOLARBEAM,    THUNDERBOLT,  THUNDER,      \
+	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   DREAM_EATER,  \
+	     REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
