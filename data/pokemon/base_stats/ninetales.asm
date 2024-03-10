@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         DIG,          PSYCHIC_M,    MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-			 REST,         PSYWAVE,      SUBSTITUTE,   FLASH
+	     REST,         PSYWAVE,      SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
