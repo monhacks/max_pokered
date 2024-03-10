@@ -17,7 +17,7 @@
 	tmhm TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  HYPER_BEAM,   \
 	     RAGE,         SOLARBEAM,    DRAGON_RAGE,  THUNDERBOLT,  THUNDER,      \
 	     EARTHQUAKE,   DIG,          PSYCHIC_M,    TELEPORT,     MIMIC,        \
-			 DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
+	     DOUBLE_TEAM,  REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        \
 	     SKULL_BASH,   REST,         THUNDER_WAVE, PSYWAVE,      ROCK_SLIDE,   \
 	     SUBSTITUTE,   STRENGTH,     FLASH
 	; end
