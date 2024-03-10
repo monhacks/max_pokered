@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm TOXIC,        HORN_DRILL,   BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     HYPER_BEAM,   \
-			 PAY_DAY,      RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
-			 FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \
-			 SWIFT,        SKULL_BASH,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
+	     PAY_DAY,      RAGE,         THUNDERBOLT,  THUNDER,      EARTHQUAKE,   \
+	     FISSURE,      MIMIC,        DOUBLE_TEAM,  BIDE,         FIRE_BLAST,   \
+	     SWIFT,        SKULL_BASH,   REST,         TRI_ATTACK,   SUBSTITUTE,   \
 	     SURF,         STRENGTH
 	; end
 
