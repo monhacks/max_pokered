@@ -18,8 +18,8 @@
 	     DOUBLE_EDGE,  BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     \
 	     HYPER_BEAM,   SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         \
 	     PSYCHIC_M,    TELEPORT,     MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-	     BIDE,         METRONOME,    SKULL_BASH,   REST,         PSYWAVE,      \
-	     SUBSTITUTE
+	     BIDE,         METRONOME,    SWIFT,        SKULL_BASH,   DREAM_EATER,  \
+			 REST,         THUNDER_WAVE, PSYWAVE,      SUBSTITUTE,   FLASH
 	; end
 
 	db 0 ; padding
