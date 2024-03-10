@@ -16,9 +16,9 @@
 	; tm/hm learnset
 	tmhm SWORDS_DANCE, TOXIC,        BODY_SLAM,    TAKE_DOWN,    DOUBLE_EDGE,  \
 	     BUBBLEBEAM,   WATER_GUN,    ICE_BEAM,     BLIZZARD,     SEISMIC_TOSS, \
-			 RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
-			 BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
-			 SURF,         STRENGTH
+	     RAGE,         DIG,          MIMIC,        DOUBLE_TEAM,  REFLECT,      \
+	     BIDE,         REST,         ROCK_SLIDE,   SUBSTITUTE,   CUT,          \
+	     SURF,         STRENGTH
 	; end
 
 	db 0 ; padding
