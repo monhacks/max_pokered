@@ -10,7 +10,7 @@
 	INCBIN "gfx/pokemon/front/charizard.pic", 0, 1 ; sprite dimensions
 	dw CharizardPicFront, CharizardPicBack
 
-	db SCRATCH, GROWL, EMBER, LEER ; level 1 learnset
+	db SCRATCH, GROWL, EMBER, SKY_ATTACK ; level 1 learnset
 	db GROWTH_MEDIUM_SLOW ; growth rate
 
 	; tm/hm learnset
@@ -19,7 +19,8 @@
 	     SUBMISSION,   COUNTER,      SEISMIC_TOSS, RAGE,         DRAGON_RAGE,  \
 	     EARTHQUAKE,   FISSURE,      DIG,          MIMIC,        DOUBLE_TEAM,  \
 	     REFLECT,      BIDE,         FIRE_BLAST,   SWIFT,        SKULL_BASH,   \
-	     REST,         SUBSTITUTE,   CUT,          FLY,          STRENGTH
+	     SKY_ATTACK,   REST,         SUBSTITUTE,   CUT,          FLY,          \
+			 STRENGTH
 	; end
 
 	db 0 ; padding
