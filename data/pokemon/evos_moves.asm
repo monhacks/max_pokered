@@ -256,11 +256,17 @@ SpearowEvosMoves:
 	db EVOLVE_LEVEL, 20, FEAROW
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 22, MIRROR_MOVE
-	db 29, DRILL_PECK
+	db 7, LEER
+	db 12, FURY_ATTACK
+	db 16, WHIRLWIND
+	db 22, SWIFT
+	db 25, TAKE_DOWN
+	db 29, MIRROR_MOVE
+	db 33, DRILL_PECK
 	db 36, AGILITY
+	db 38, SCREECH
+	db 41, DOUBLE_EDGE
+	db 45, RAZOR_WIND
 	db 0
 
 VoltorbEvosMoves:
@@ -593,11 +599,15 @@ FearowEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 9, LEER
-	db 15, FURY_ATTACK
-	db 25, MIRROR_MOVE
-	db 34, DRILL_PECK
-	db 43, AGILITY
+	db 16, WHIRLWIND
+	db 24, SWIFT
+	db 27, TAKE_DOWN
+	db 31, MIRROR_MOVE
+	db 36, DRILL_PECK
+	db 39, AGILITY
+	db 42, SCREECH
+	db 45, DOUBLE_EDGE
+	db 49, RAZOR_WIND
 	db 0
 
 PidgeyEvosMoves:
@@ -605,12 +615,16 @@ PidgeyEvosMoves:
 	db EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 7, GUST
+	db 9, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 19, WHIRLWIND
-	db 28, WING_ATTACK
-	db 36, AGILITY
-	db 44, MIRROR_MOVE
+	db 17, WHIRLWIND
+	db 20, WING_ATTACK
+	db 24, SWIFT
+	db 27, TAKE_DOWN
+	db 33, AGILITY
+	db 36, MIRROR_MOVE
+	db 43, SKY_ATTACK
 	db 0
 
 SlowpokeEvosMoves:
@@ -1746,24 +1760,31 @@ PidgeottoEvosMoves:
 	db EVOLVE_LEVEL, 36, PIDGEOT
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 9, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 40, AGILITY
-	db 49, MIRROR_MOVE
+	db 17, WHIRLWIND
+	db 22, WING_ATTACK
+	db 27, SWIFT
+	db 33, TAKE_DOWN
+	db 37, AGILITY
+	db 40, MIRROR_MOVE
+	db 47, SKY_ATTACK
 	db 0
 
 PidgeotEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 9, SAND_ATTACK
 	db 12, QUICK_ATTACK
-	db 21, WHIRLWIND
-	db 31, WING_ATTACK
-	db 44, AGILITY
-	db 54, MIRROR_MOVE
+	db 17, WHIRLWIND
+	db 22, WING_ATTACK
+	db 27, SWIFT
+	db 33, TAKE_DOWN
+	db 36, FLY
+	db 41, AGILITY
+	db 44, MIRROR_MOVE
+	db 51, MIRROR_MOVE
 	db 0
 
 StarmieEvosMoves:
@@ -1906,19 +1927,30 @@ RattataEvosMoves:
 	db 0
 ; Learnset
 	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 23, FOCUS_ENERGY
-	db 34, SUPER_FANG
+	db 12, DOUBLE_KICK
+	db 14, FOCUS_ENERGY
+	db 18, BITE
+	db 21, HYPER_FANG
+	db 24, DIG
+	db 30, AGILITY
+	db 35, SCREECH
+	db 39, SUPER_FANG
+	db 43, DOUBLE_EDGE
 	db 0
 
 RaticateEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, QUICK_ATTACK
-	db 14, HYPER_FANG
-	db 27, FOCUS_ENERGY
-	db 41, SUPER_FANG
+	db 14, FOCUS_ENERGY
+	db 18, BITE
+	db 24, HYPER_FANG
+	db 27, DIG
+	db 33, AGILITY
+	db 36, BODY_SLAM
+	db 40, SCREECH
+	db 44, SUPER_FANG
+	db 48, DOUBLE_EDGE
 	db 0
 
 NidorinoEvosMoves:
