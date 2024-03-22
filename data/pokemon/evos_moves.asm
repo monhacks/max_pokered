@@ -1385,6 +1385,7 @@ WeedleEvosMoves:
 	db EVOLVE_LEVEL, 7, KAKUNA
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 KakunaEvosMoves:
@@ -1392,18 +1393,25 @@ KakunaEvosMoves:
 	db EVOLVE_LEVEL, 10, BEEDRILL
 	db 0
 ; Learnset
+	db 9, BIDE
 	db 0
 
 BeedrillEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, FURY_ATTACK
-	db 16, FOCUS_ENERGY
-	db 20, TWINEEDLE
-	db 25, RAGE
-	db 30, PIN_MISSILE
-	db 35, AGILITY
+	db 10, FURY_ATTACK
+	db 12, QUICK_ATTACK
+	db 14, FOCUS_ENERGY
+	db 16, RAGE
+	db 21, TWINEEDLE
+	db 26, ACID
+	db 30, AGILITY
+	db 33, PIN_MISSILE
+	db 37, SWORDS_DANCE
+	db 41, DRILL_PECK
+	db 44, THRASH
+	db 48, HORN_DRILL
 	db 0
 
 MissingNo73EvosMoves:
@@ -1486,6 +1494,7 @@ CaterpieEvosMoves:
 	db EVOLVE_LEVEL, 7, METAPOD
 	db 0
 ; Learnset
+	db 7, HARDEN
 	db 0
 
 MetapodEvosMoves:
@@ -1493,19 +1502,25 @@ MetapodEvosMoves:
 	db EVOLVE_LEVEL, 10, BUTTERFREE
 	db 0
 ; Learnset
+	db 9, BIDE
 	db 0
 
 ButterfreeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, CONFUSION
-	db 15, POISONPOWDER
-	db 16, STUN_SPORE
-	db 17, SLEEP_POWDER
+	db 10, CONFUSION
+	db 13, POISONPOWDER
+	db 14, STUN_SPORE
+	db 15, SLEEP_POWDER
+	db 18, GUST
 	db 21, SUPERSONIC
-	db 26, WHIRLWIND
-	db 32, PSYBEAM
+	db 24, WHIRLWIND
+	db 27, REFLECT
+	db 31, LIGHT_SCREEN
+	db 33, PSYBEAM
+	db 37, CONFUSE_RAY
+	db 44, PSYCHIC_M
 	db 0
 
 MachampEvosMoves:
