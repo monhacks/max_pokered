@@ -727,22 +727,31 @@ ArbokEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 27, GLARE
-	db 36, SCREECH
-	db 47, ACID
+	db 15, BITE
+	db 19, MEGA_DRAIN
+	db 25, ACID
+	db 30, GLARE
+	db 33, TOXIC
+	db 37, WRAP
+	db 39, SCREECH
+	db 42, ACID_ARMOR
+	db 45, SUPER_FANG
+	db 49, BIND
 	db 0
 
 ParasectEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 30, SPORE
-	db 39, SLASH
-	db 48, GROWTH
+	db 17, STUN_SPORE
+	db 21, DIG
+	db 27, MEGA_DRAIN
+	db 30, ACID
+	db 34, SLASH
+	db 38, GROWTH
+	db 42, SWORDS_DANCE
+	db 47, SPORE
+	db 53, SOLARBEAM
 	db 0
 
 PsyduckEvosMoves:
@@ -1211,22 +1220,31 @@ SandshrewEvosMoves:
 	db EVOLVE_LEVEL, 22, SANDSLASH
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 24, POISON_STING
-	db 31, SWIFT
-	db 38, FURY_SWIPES
+	db 9, POISON_STING
+	db 11, SAND_ATTACK
+	db 15, DOUBLE_KICK
+	db 19, FURY_SWIPES
+	db 22, DIG
+	db 25, SWIFT
+	db 31, SLASH
+	db 37, BARRIER
+	db 44, EARTHQUAKE
 	db 0
 
 SandslashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SAND_ATTACK
-	db 17, SLASH
-	db 27, POISON_STING
-	db 36, SWIFT
-	db 47, FURY_SWIPES
+	db 15, DOUBLE_KICK
+	db 19, FURY_SWIPES
+	db 22, DIG
+	db 27, SWIFT
+	db 33, SLASH
+	db 37, PIN_MISSILE
+	db 41, BARRIER
+	db 44, SPIKE_CANNON
+	db 48, EARTHQUAKE
+	db 54, FISSURE
 	db 0
 
 OmanyteEvosMoves:
@@ -1342,11 +1360,18 @@ ZubatEvosMoves:
 	db EVOLVE_LEVEL, 22, GOLBAT
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 28, WING_ATTACK
-	db 36, HAZE
+	db 9, POISON_STING
+	db 11, SUPERSONIC
+	db 15, SONICBOOM
+	db 19, BITE
+	db 23, WING_ATTACK
+	db 25, MEGA_DRAIN
+	db 27, ACID
+	db 30, HAZE
+	db 37, CONFUSE_RAY
+	db 39, SUPER_FANG
+	db 41, SCREECH
+	db 45, RAZOR_WIND
 	db 0
 
 EkansEvosMoves:
@@ -1354,11 +1379,17 @@ EkansEvosMoves:
 	db EVOLVE_LEVEL, 22, ARBOK
 	db 0
 ; Learnset
-	db 10, POISON_STING
-	db 17, BITE
-	db 24, GLARE
-	db 31, SCREECH
-	db 38, ACID
+	db 9, CONSTRICT
+	db 11, LEECH_LIFE
+	db 15, BITE
+	db 19, MEGA_DRAIN
+	db 23, ACID
+	db 27, GLARE
+	db 34, WRAP
+	db 36, SCREECH
+	db 38, ACID_ARMOR
+	db 41, SUPER_FANG
+	db 45, BIND
 	db 0
 
 ParasEvosMoves:
@@ -1366,11 +1397,17 @@ ParasEvosMoves:
 	db EVOLVE_LEVEL, 24, PARASECT
 	db 0
 ; Learnset
-	db 13, STUN_SPORE
-	db 20, LEECH_LIFE
-	db 27, SPORE
-	db 34, SLASH
-	db 41, GROWTH
+	db 9, LEECH_LIFE
+	db 13, FURY_SWIPES
+	db 17, STUN_SPORE
+	db 21, DIG
+	db 25, MEGA_DRAIN
+	db 28, ACID
+	db 31, SLASH
+	db 35, GROWTH
+	db 38, SWORDS_DANCE
+	db 42, SPORE
+	db 47, SOLARBEAM
 	db 0
 
 PoliwhirlEvosMoves:
@@ -1581,11 +1618,17 @@ GolbatEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, SUPERSONIC
-	db 15, BITE
-	db 21, CONFUSE_RAY
-	db 32, WING_ATTACK
-	db 43, HAZE
+	db 15, SONICBOOM
+	db 19, BITE
+	db 25, WING_ATTACK
+	db 27, MEGA_DRAIN
+	db 29, ACID
+	db 33, HAZE
+	db 37, TOXIC
+	db 40, CONFUSE_RAY
+	db 42, SUPER_FANG
+	db 45, SCREECH
+	db 49, RAZOR_WIND
 	db 0
 
 MewtwoEvosMoves:
