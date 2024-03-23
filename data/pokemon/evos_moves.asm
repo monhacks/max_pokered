@@ -759,11 +759,17 @@ PsyduckEvosMoves:
 	db EVOLVE_LEVEL, 33, GOLDUCK
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 36, CONFUSION
-	db 43, FURY_SWIPES
-	db 52, HYDRO_PUMP
+	db 8, BUBBLE
+	db 12, DISABLE
+	db 16, CONFUSION
+	db 19, FURY_SWIPES
+	db 23, BUBBLEBEAM
+	db 27, HYPNOSIS
+	db 30, PSYWAVE
+	db 34, MIST
+	db 39, AGILITY
+	db 45, AMNESIA
+	db 48, HYDRO_PUMP
 	db 0
 
 DrowzeeEvosMoves:
@@ -885,11 +891,16 @@ DiglettEvosMoves:
 	db EVOLVE_LEVEL, 26, DUGTRIO
 	db 0
 ; Learnset
-	db 15, GROWL
-	db 19, DIG
-	db 24, SAND_ATTACK
-	db 31, SLASH
-	db 40, EARTHQUAKE
+	db 9, SAND_ATTACK
+	db 12, LEER
+	db 15, QUICK_ATTACK
+	db 18, DIG
+	db 21, FURY_SWIPES
+	db 24, SWIFT
+	db 29, SLASH
+	db 36, SCREECH
+	db 40, DOUBLE_EDGE
+	db 44, EARTHQUAKE
 	db 0
 
 TaurosEvosMoves:
@@ -937,10 +948,13 @@ VenonatEvosMoves:
 	db EVOLVE_LEVEL, 31, VENOMOTH
 	db 0
 ; Learnset
-	db 24, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 35, PSYBEAM
+	db 11, POISONPOWDER
+	db 13, LEECH_LIFE
+	db 15, CONFUSION
+	db 21, STUN_SPORE
+	db 24, PSYWAVE
+	db 29, SLUDGE
+	db 32, PSYBEAM
 	db 38, SLEEP_POWDER
 	db 43, PSYCHIC_M
 	db 0
@@ -1050,11 +1064,17 @@ MeowthEvosMoves:
 	db EVOLVE_LEVEL, 28, PERSIAN
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 33, FURY_SWIPES
-	db 44, SLASH
+	db 9, TAIL_WHIP
+	db 12, QUICK_ATTACK
+	db 15, FOCUS_ENERGY
+	db 18, BITE
+	db 22, PAY_DAY
+	db 24, FURY_SWIPES
+	db 27, DOUBLE_TEAM
+	db 29, TAKE_DOWN
+	db 32, SLASH
+	db 35, SCREECH
+	db 43, DOUBLE_EDGE
 	db 0
 
 KrabbyEvosMoves:
@@ -1498,23 +1518,31 @@ DugtrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, GROWL
-	db 19, DIG
-	db 24, SAND_ATTACK
-	db 35, SLASH
-	db 47, EARTHQUAKE
+	db 15, QUICK_ATTACK
+	db 18, DIG
+	db 21, FURY_SWIPES
+	db 24, SWIFT
+	db 31, SLASH
+	db 35, ROCK_SLIDE
+	db 39, SCREECH
+	db 44, DOUBLE_EDGE
+	db 49, EARTHQUAKE
+	db 53, FISSURE
 	db 0
 
 VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, POISONPOWDER
-	db 27, LEECH_LIFE
-	db 30, STUN_SPORE
-	db 38, PSYBEAM
-	db 43, SLEEP_POWDER
-	db 50, PSYCHIC_M
+	db 15, CONFUSION
+	db 21, STUN_SPORE
+	db 24, PSYWAVE
+	db 29, SLUDGE
+	db 33, MEGA_DRAIN
+	db 35, PSYBEAM
+	db 39, AGILITY
+	db 41, SLEEP_POWDER
+	db 47, PSYCHIC_M
 	db 0
 
 DewgongEvosMoves:
@@ -1595,11 +1623,17 @@ GolduckEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 28, TAIL_WHIP
-	db 31, DISABLE
-	db 39, CONFUSION
-	db 48, FURY_SWIPES
-	db 59, HYDRO_PUMP
+	db 16, CONFUSION
+	db 19, FURY_SWIPES
+	db 23, BUBBLEBEAM
+	db 27, HYPNOSIS
+	db 30, PSYWAVE
+	db 36, MIST
+	db 39, ICE_PUNCH
+	db 42, AGILITY
+	db 45, PSYCHIC_M
+	db 49, AMNESIA
+	db 53, HYDRO_PUMP
 	db 0
 
 HypnoEvosMoves:
@@ -1746,11 +1780,16 @@ PersianEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, BITE
-	db 17, PAY_DAY
-	db 24, SCREECH
-	db 37, FURY_SWIPES
-	db 51, SLASH
+	db 15, FOCUS_ENERGY
+	db 18, BITE
+	db 22, PAY_DAY
+	db 24, FURY_SWIPES
+	db 27, DOUBLE_TEAM
+	db 31, TAKE_DOWN
+	db 35, SLASH
+	db 39, SCREECH
+	db 43, BODY_SLAM
+	db 48, DOUBLE_EDGE
 	db 0
 
 MarowakEvosMoves:
