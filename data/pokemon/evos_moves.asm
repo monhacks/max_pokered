@@ -642,15 +642,19 @@ SlowpokeEvosMoves:
 
 KadabraEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, ALAKAZAM
+	db EVOLVE_LEVEL, 42, ALAKAZAM
 	db 0
 ; Learnset
-	db 16, CONFUSION
+	db 16, KINESIS
 	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 24, PSYWAVE
+	db 27, HYPNOSIS
+	db 31, LIGHT_SCREEN
+	db 33, PSYBEAM
+	db 37, DOUBLE_TEAM
+	db 41, REFLECT
+	db 43, RECOVER
+	db 45, PSYCHIC_M
 	db 0
 
 GravelerEvosMoves:
@@ -680,14 +684,20 @@ ChanseyEvosMoves:
 
 MachokeEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, MACHAMP
+	db EVOLVE_LEVEL, 38, MACHAMP
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 13, KARATE_CHOP
+	db 16, ROCK_THROW
+	db 20, DIZZY_PUNCH
+	db 24, SEISMIC_TOSS
+	db 26, MEDITATE
+	db 31, MEGA_PUNCH
+	db 33, COUNTER
+	db 37, BODY_SLAM
+	db 40, SUBMISSION
+	db 43, DOUBLE_EDGE
+	db 47, MEGA_KICK
 	db 0
 
 MrMimeEvosMoves:
@@ -867,11 +877,18 @@ MankeyEvosMoves:
 	db EVOLVE_LEVEL, 28, PRIMEAPE
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
+	db 10, KARATE_CHOP
+	db 12, QUICK_ATTACK
+	db 14, FOCUS_ENERGY
+	db 17, RAGE
 	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 33, SEISMIC_TOSS
-	db 39, THRASH
+	db 25, MEDITATE
+	db 29, SEISMIC_TOSS
+	db 33, MEGA_PUNCH
+	db 36, AGILITY
+	db 39, JUMP_KICK
+	db 42, THRASH
+	db 45, MEGA_KICK
 	db 0
 
 SeelEvosMoves:
@@ -1368,11 +1385,18 @@ MachopEvosMoves:
 	db EVOLVE_LEVEL, 28, MACHOKE
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 32, FOCUS_ENERGY
-	db 39, SEISMIC_TOSS
-	db 46, SUBMISSION
+	db 10, FOCUS_ENERGY
+	db 13, KARATE_CHOP
+	db 16, ROCK_THROW
+	db 20, DIZZY_PUNCH
+	db 24, SEISMIC_TOSS
+	db 26, MEDITATE
+	db 29, MEGA_PUNCH
+	db 31, COUNTER
+	db 35, BODY_SLAM
+	db 38, SUBMISSION
+	db 40, DOUBLE_EDGE
+	db 43, MEGA_KICK
 	db 0
 
 ZubatEvosMoves:
@@ -1507,11 +1531,16 @@ PrimeapeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, KARATE_CHOP
+	db 14, FOCUS_ENERGY
+	db 17, RAGE
 	db 21, FURY_SWIPES
-	db 27, FOCUS_ENERGY
-	db 37, SEISMIC_TOSS
-	db 46, THRASH
+	db 25, MEDITATE
+	db 31, SEISMIC_TOSS
+	db 35, MEGA_PUNCH
+	db 38, AGILITY
+	db 41, JUMP_KICK
+	db 45, THRASH
+	db 49, MEGA_KICK
 	db 0
 
 DugtrioEvosMoves:
@@ -1606,11 +1635,17 @@ MachampEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, LOW_KICK
-	db 25, LEER
-	db 36, FOCUS_ENERGY
-	db 44, SEISMIC_TOSS
-	db 52, SUBMISSION
+	db 13, KARATE_CHOP
+	db 16, ROCK_THROW
+	db 20, DIZZY_PUNCH
+	db 24, SEISMIC_TOSS
+	db 26, MEDITATE
+	db 31, MEGA_PUNCH
+	db 33, COUNTER
+	db 37, BODY_SLAM
+	db 42, SUBMISSION
+	db 46, DOUBLE_EDGE
+	db 51, MEGA_KICK
 	db 0
 
 MissingNo7FEvosMoves:
@@ -1823,18 +1858,24 @@ AbraEvosMoves:
 	db EVOLVE_LEVEL, 16, KADABRA
 	db 0
 ; Learnset
+	db 10, POUND
+	db 15, CONFUSION
 	db 0
 
 AlakazamEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, CONFUSION
+	db 16, KINESIS
 	db 20, DISABLE
-	db 27, PSYBEAM
-	db 31, RECOVER
-	db 38, PSYCHIC_M
-	db 42, REFLECT
+	db 24, PSYWAVE
+	db 27, HYPNOSIS
+	db 31, LIGHT_SCREEN
+	db 33, PSYBEAM
+	db 37, DOUBLE_TEAM
+	db 41, REFLECT
+	db 45, RECOVER
+	db 49, PSYCHIC_M
 	db 0
 
 PidgeottoEvosMoves:
