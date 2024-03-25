@@ -294,13 +294,16 @@ SlowbroEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
+	db 16, HEADBUTT
+	db 20, PSYWAVE
+	db 24, BUBBLEBEAM
+	db 28, REST
+	db 33, MIST
 	db 37, WITHDRAW
-	db 44, AMNESIA
-	db 55, PSYCHIC_M
+	db 39, ICE_PUNCH
+	db 43, PSYCHIC_M
+	db 47, AMNESIA
+	db 53, HYDRO_PUMP
 	db 0
 
 IvysaurEvosMoves:
@@ -475,13 +478,16 @@ TentacoolEvosMoves:
 	db EVOLVE_LEVEL, 30, TENTACRUEL
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 33, BARRIER
-	db 40, SCREECH
+	db 11, WATER_GUN
+	db 13, SUPERSONIC
+	db 17, SMOKESCREEN
+	db 22, BUBBLEBEAM
+	db 27, ACID
+	db 32, CONFUSE_RAY
+	db 34, WRAP
+	db 39, BARRIER
+	db 42, SCREECH
+	db 44, BIND
 	db 48, HYDRO_PUMP
 	db 0
 
@@ -632,12 +638,16 @@ SlowpokeEvosMoves:
 	db EVOLVE_LEVEL, 37, SLOWBRO
 	db 0
 ; Learnset
-	db 18, DISABLE
-	db 22, HEADBUTT
-	db 27, GROWL
-	db 33, WATER_GUN
-	db 40, AMNESIA
-	db 48, PSYCHIC_M
+	db 11, DISABLE
+	db 13, CONFUSION
+	db 16, HEADBUTT
+	db 20, PSYWAVE
+	db 24, BUBBLEBEAM
+	db 28, REST
+	db 33, MIST
+	db 38, PSYCHIC_M
+	db 42, AMNESIA
+	db 47, HYDRO_PUMP
 	db 0
 
 KadabraEvosMoves:
@@ -659,15 +669,19 @@ KadabraEvosMoves:
 
 GravelerEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GOLEM
+	db EVOLVE_LEVEL, 40, GOLEM
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 11, SAND_ATTACK
+	db 15, SLAM
+	db 19, SELFDESTRUCT
+	db 23, SEISMIC_TOSS
+	db 28, TAKE_DOWN
+	db 31, ROCK_SLIDE
+	db 36, BARRIER
+	db 41, DOUBLE_EDGE
+	db 45, EARTHQUAKE
+	db 47, EXPLOSION
 	db 0
 
 ChanseyEvosMoves:
@@ -799,12 +813,17 @@ GolemEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 29, HARDEN
-	db 36, EARTHQUAKE
-	db 43, EXPLOSION
+	db 11, SAND_ATTACK
+	db 15, SLAM
+	db 19, SELFDESTRUCT
+	db 23, SEISMIC_TOSS
+	db 28, TAKE_DOWN
+	db 31, ROCK_SLIDE
+	db 36, BARRIER
+	db 43, DOUBLE_EDGE
+	db 48, EARTHQUAKE
+	db 51, EXPLOSION
+	db 55, FISSURE
 	db 0
 
 MissingNo32EvosMoves:
@@ -1954,14 +1973,16 @@ TentacruelEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, SUPERSONIC
-	db 13, WRAP
-	db 18, POISON_STING
-	db 22, WATER_GUN
-	db 27, CONSTRICT
-	db 35, BARRIER
-	db 43, SCREECH
-	db 50, HYDRO_PUMP
+	db 17, SMOKESCREEN
+	db 22, BUBBLEBEAM
+	db 27, ACID
+	db 34, CONFUSE_RAY
+	db 36, WRAP
+	db 39, TOXIC
+	db 42, BARRIER
+	db 45, SCREECH
+	db 48, BIND
+	db 53, HYDRO_PUMP
 	db 0
 
 MissingNo9CEvosMoves:
@@ -2024,24 +2045,32 @@ PonytaEvosMoves:
 	db EVOLVE_LEVEL, 40, RAPIDASH
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 43, TAKE_DOWN
-	db 48, AGILITY
+	db 10, QUICK_ATTACK
+	db 12, TAIL_WHIP
+	db 15, FURY_ATTACK
+	db 19, STOMP
+	db 24, TAKE_DOWN
+	db 29, AGILITY
+	db 35, FLAMETHROWER
+	db 42, DOUBLE_EDGE
+	db 45, FIRE_SPIN
+	db 49, FIRE_BLAST
 	db 0
 
 RapidashEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, TAIL_WHIP
-	db 32, STOMP
-	db 35, GROWL
-	db 39, FIRE_SPIN
-	db 47, TAKE_DOWN
-	db 55, AGILITY
+	db 15, FURY_ATTACK
+	db 19, STOMP
+	db 24, TAKE_DOWN
+	db 29, AGILITY
+	db 35, FLAMETHROWER
+	db 40, DRILL_PECK
+	db 44, DOUBLE_EDGE
+	db 48, FIRE_SPIN
+	db 53, FIRE_BLAST
+	db 57, HORN_DRILL
 	db 0
 
 RattataEvosMoves:
@@ -2107,12 +2136,17 @@ GeodudeEvosMoves:
 	db EVOLVE_LEVEL, 25, GRAVELER
 	db 0
 ; Learnset
-	db 11, DEFENSE_CURL
-	db 16, ROCK_THROW
-	db 21, SELFDESTRUCT
-	db 26, HARDEN
-	db 31, EARTHQUAKE
-	db 36, EXPLOSION
+	db 9, ROCK_THROW
+	db 11, SAND_ATTACK
+	db 15, SLAM
+	db 19, SELFDESTRUCT
+	db 23, SEISMIC_TOSS
+	db 26, TAKE_DOWN
+	db 29, ROCK_SLIDE
+	db 34, BARRIER
+	db 39, DOUBLE_EDGE
+	db 41, EARTHQUAKE
+	db 43, EXPLOSION
 	db 0
 
 PorygonEvosMoves:
