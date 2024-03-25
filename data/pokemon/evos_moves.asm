@@ -359,12 +359,17 @@ GrimerEvosMoves:
 	db EVOLVE_LEVEL, 38, MUK
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 42, HARDEN
-	db 48, SCREECH
-	db 55, ACID_ARMOR
+	db 11, POISON_GAS
+	db 13, HARDEN
+	db 15, SMOG
+	db 18, SLAM
+	db 22, MINIMIZE
+	db 26, SLUDGE
+	db 30, SEISMIC_TOSS
+	db 34, ACID
+	db 39, SCREECH
+	db 42, ACID_ARMOR
+	db 45, DOUBLE_EDGE
 	db 0
 
 GengarEvosMoves:
@@ -865,12 +870,16 @@ MagnetonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 38, THUNDER_WAVE
-	db 46, SWIFT
-	db 54, SCREECH
+	db 19, THUNDER_WAVE
+	db 23, SWIFT
+	db 27, SELFDESTRUCT
+	db 30, TRI_ATTACK
+	db 33, LIGHT_SCREEN
+	db 35, REFLECT
+	db 38, THUNDERBOLT
+	db 42, SCREECH
+	db 47, THUNDER
+	db 52, EXPLOSION
 	db 0
 
 KoffingEvosMoves:
@@ -915,11 +924,17 @@ SeelEvosMoves:
 	db EVOLVE_LEVEL, 34, DEWGONG
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 40, REST
-	db 45, TAKE_DOWN
-	db 50, ICE_BEAM
+	db 9, TAIL_WHIP
+	db 13, WATER_GUN
+	db 15, HORN_ATTACK
+	db 19, HEADBUTT
+	db 23, AURORA_BEAM
+	db 27, MIST
+	db 33, REST
+	db 37, SURF
+	db 39, ICE_BEAM
+	db 42, HAZE
+	db 44, SKULL_BASH
 	db 0
 
 DiglettEvosMoves:
@@ -972,11 +987,16 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
+	db 12, QUICK_ATTACK
 	db 15, FURY_ATTACK
-	db 23, SWORDS_DANCE
-	db 31, AGILITY
-	db 39, SLASH
+	db 18, WHIRLWIND
+	db 22, WING_ATTACK
+	db 27, SLASH
+	db 33, FLY
+	db 37, AGILITY
+	db 41, SWORDS_DANCE
+	db 44, DOUBLE_EDGE
+	db 49, SKY_ATTACK
 	db 0
 
 VenonatEvosMoves:
@@ -1029,12 +1049,17 @@ DoduoEvosMoves:
 	db EVOLVE_LEVEL, 31, DODRIO
 	db 0
 ; Learnset
-	db 20, GROWL
-	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
-	db 36, RAGE
-	db 40, TRI_ATTACK
-	db 44, AGILITY
+	db 11, QUICK_ATTACK
+	db 13, FURY_ATTACK
+	db 15, RAGE
+	db 19, STOMP
+	db 25, DRILL_PECK
+	db 29, MIRROR_MOVE
+	db 33, TAKE_DOWN
+	db 37, AGILITY
+	db 39, TRI_ATTACK
+	db 41, SCREECH
+	db 44, DOUBLE_EDGE
 	db 0
 
 PoliwagEvosMoves:
@@ -1538,12 +1563,15 @@ DodrioEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, GROWL
-	db 24, FURY_ATTACK
-	db 30, DRILL_PECK
-	db 39, RAGE
-	db 45, TRI_ATTACK
-	db 51, AGILITY
+	db 15, RAGE
+	db 19, STOMP
+	db 25, DRILL_PECK
+	db 29, MIRROR_MOVE
+	db 35, TAKE_DOWN
+	db 39, AGILITY
+	db 41, TRI_ATTACK
+	db 44, SCREECH
+	db 49, DOUBLE_EDGE
 	db 0
 
 PrimeapeEvosMoves:
@@ -1597,11 +1625,17 @@ DewgongEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, GROWL
-	db 35, AURORA_BEAM
-	db 44, REST
-	db 50, TAKE_DOWN
-	db 56, ICE_BEAM
+	db 15, HORN_ATTACK
+	db 19, HEADBUTT
+	db 23, AURORA_BEAM
+	db 27, MIST
+	db 33, REST
+	db 36, BODY_SLAM
+	db 39, SURF
+	db 42, ICE_BEAM
+	db 45, HAZE
+	db 49, SKULL_BASH
+	db 53, HORN_DRILL
 	db 0
 
 MissingNo79EvosMoves:
@@ -1764,12 +1798,16 @@ MukEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, POISON_GAS
-	db 33, MINIMIZE
-	db 37, SLUDGE
-	db 45, HARDEN
-	db 53, SCREECH
-	db 60, ACID_ARMOR
+	db 15, SMOG
+	db 18, SLAM
+	db 22, MINIMIZE
+	db 26, SLUDGE
+	db 30, SEISMIC_TOSS
+	db 34, ACID
+	db 38, TOXIC
+	db 41, SCREECH
+	db 45, ACID_ARMOR
+	db 49, DOUBLE_EDGE
 	db 0
 
 MissingNo8AEvosMoves:
@@ -2180,12 +2218,17 @@ MagnemiteEvosMoves:
 	db EVOLVE_LEVEL, 30, MAGNETON
 	db 0
 ; Learnset
-	db 21, SONICBOOM
-	db 25, THUNDERSHOCK
-	db 29, SUPERSONIC
-	db 35, THUNDER_WAVE
-	db 41, SWIFT
-	db 47, SCREECH
+	db 11, THUNDERSHOCK
+	db 15, SUPERSONIC
+	db 19, THUNDER_WAVE
+	db 23, SWIFT
+	db 27, SELFDESTRUCT
+	db 31, LIGHT_SCREEN
+	db 33, REFLECT
+	db 35, THUNDERBOLT
+	db 39, SCREECH
+	db 43, THUNDER
+	db 47, EXPLOSION
 	db 0
 
 MissingNoAEEvosMoves:
