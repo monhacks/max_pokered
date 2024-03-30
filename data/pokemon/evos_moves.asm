@@ -206,23 +206,33 @@ RhydonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 48, HORN_DRILL
-	db 55, LEER
-	db 64, TAKE_DOWN
+	db 15, SAND_ATTACK
+	db 17, HORN_ATTACK
+	db 20, STOMP
+	db 23, DIG
+	db 27, TAKE_DOWN
+	db 31, ROCK_SLIDE
+	db 37, DRILL_PECK
+	db 45, THRASH
+	db 49, EARTHQUAKE
+	db 55, HORN_DRILL
 	db 0
 
 KangaskhanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 26, BITE
-	db 31, TAIL_WHIP
-	db 36, MEGA_PUNCH
-	db 41, LEER
-	db 46, DIZZY_PUNCH
+	db 11, SAND_ATTACK
+	db 13, COMET_PUNCH
+	db 15, RAGE
+	db 19, BITE
+	db 23, DIZZY_PUNCH
+	db 28, MEGA_PUNCH
+	db 33, AGILITY
+	db 37, BODY_SLAM
+	db 44, SCREECH
+	db 49, SKULL_BASH
+	db 54, HYPER_BEAM
 	db 0
 
 NidoranMEvosMoves:
@@ -445,12 +455,18 @@ RhyhornEvosMoves:
 	db EVOLVE_LEVEL, 42, RHYDON
 	db 0
 ; Learnset
-	db 30, STOMP
-	db 35, TAIL_WHIP
-	db 40, FURY_ATTACK
-	db 45, HORN_DRILL
-	db 50, LEER
-	db 55, TAKE_DOWN
+	db 11, DOUBLE_KICK
+	db 13, FURY_ATTACK
+	db 15, SAND_ATTACK
+	db 17, HORN_ATTACK
+	db 20, STOMP
+	db 23, DIG
+	db 27, TAKE_DOWN
+	db 31, ROCK_SLIDE
+	db 37, DRILL_PECK
+	db 43, THRASH
+	db 46, EARTHQUAKE
+	db 50, HORN_DRILL
 	db 0
 
 LaprasEvosMoves:
@@ -598,12 +614,17 @@ TangelaEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, ABSORB
-	db 32, POISONPOWDER
-	db 36, STUN_SPORE
-	db 39, SLEEP_POWDER
-	db 45, SLAM
-	db 49, GROWTH
+	db 13, POISONPOWDER
+	db 17, SLAM
+	db 21, STUN_SPORE
+	db 25, MEGA_DRAIN
+	db 31, WRAP
+	db 35, LEECH_SEED
+	db 39, GROWTH
+	db 42, BARRIER
+	db 45, SLEEP_POWDER
+	db 48, BIND
+	db 53, SOLARBEAM
 	db 0
 
 MissingNo1FEvosMoves:
@@ -734,12 +755,17 @@ ChanseyEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 24, SING
-	db 30, GROWL
-	db 38, MINIMIZE
-	db 44, DEFENSE_CURL
-	db 48, LIGHT_SCREEN
-	db 54, DOUBLE_EDGE
+	db 11, DOUBLESLAP
+	db 13, DEFENSE_CURL
+	db 17, MINIMIZE
+	db 21, SWIFT
+	db 25, METRONOME
+	db 30, LIGHT_SCREEN
+	db 33, REFLECT
+	db 37, LOVELY_KISS
+	db 41, BODY_SLAM
+	db 44, SOFTBOILED
+	db 49, EGG_BOMB
 	db 0
 
 MachokeEvosMoves:
@@ -1338,22 +1364,32 @@ HorseaEvosMoves:
 	db EVOLVE_LEVEL, 32, SEADRA
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 37, AGILITY
-	db 45, HYDRO_PUMP
+	db 10, QUICK_ATTACK
+	db 13, WATER_GUN
+	db 15, SMOG
+	db 18, SMOKESCREEN
+	db 22, BUBBLEBEAM
+	db 26, SWIFT
+	db 33, AGILITY
+	db 36, HAZE
+	db 41, THRASH
+	db 46, HYDRO_PUMP
 	db 0
 
 SeadraEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SMOKESCREEN
-	db 24, LEER
-	db 30, WATER_GUN
-	db 41, AGILITY
-	db 52, HYDRO_PUMP
+	db 15, SMOG
+	db 18, SMOKESCREEN
+	db 22, BUBBLEBEAM
+	db 26, SWIFT
+	db 32, DRAGON_RAGE
+	db 35, AGILITY
+	db 39, HAZE
+	db 42, SPIKE_CANNON
+	db 45, THRASH
+	db 51, HYDRO_PUMP
 	db 0
 
 MissingNo5EEvosMoves:
@@ -2136,24 +2172,33 @@ GoldeenEvosMoves:
 	db EVOLVE_LEVEL, 33, SEAKING
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 37, WATERFALL
-	db 45, HORN_DRILL
-	db 54, AGILITY
+	db 11, SUPERSONIC
+	db 13, WATER_GUN
+	db 15, HORN_ATTACK
+	db 18, FURY_ATTACK
+	db 26, SWIFT
+	db 31, WATERFALL
+	db 33, DRILL_PECK
+	db 36, AGILITY
+	db 40, DOUBLE_EDGE
+	db 46, HYDRO_PUMP
+	db 50, HORN_DRILL
 	db 0
 
 SeakingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 19, SUPERSONIC
-	db 24, HORN_ATTACK
-	db 30, FURY_ATTACK
-	db 39, WATERFALL
-	db 48, HORN_DRILL
-	db 54, AGILITY
+	db 15, HORN_ATTACK
+	db 18, FURY_ATTACK
+	db 26, SWIFT
+	db 31, WATERFALL
+	db 35, DRILL_PECK
+	db 39, AGILITY
+	db 42, DOUBLE_EDGE
+	db 45, SWORDS_DANCE
+	db 51, HYDRO_PUMP
+	db 55, HORN_DRILL
 	db 0
 
 MissingNo9FEvosMoves:
