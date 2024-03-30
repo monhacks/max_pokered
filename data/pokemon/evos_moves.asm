@@ -376,8 +376,16 @@ GengarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 13, CONFUSION
+	db 17, HYPNOSIS
+	db 21, MINIMIZE
+	db 28, NIGHT_SHADE
+	db 31, SLUDGE
+	db 37, CONFUSE_RAY
+	db 41, TOXIC
+	db 44, GROWTH
+	db 48, PSYCHIC_M
+	db 53, DREAM_EATER
 	db 0
 
 NidoranFEvosMoves:
@@ -501,8 +509,17 @@ GastlyEvosMoves:
 	db EVOLVE_LEVEL, 25, HAUNTER
 	db 0
 ; Learnset
-	db 27, HYPNOSIS
-	db 35, DREAM_EATER
+	db 11, DISABLE
+	db 13, CONFUSION
+	db 17, HYPNOSIS
+	db 21, MINIMIZE
+	db 26, NIGHT_SHADE
+	db 29, SLUDGE
+	db 31, PSYBEAM
+	db 34, CONFUSE_RAY
+	db 39, GROWTH
+	db 41, PSYCHIC_M
+	db 45, DREAM_EATER
 	db 0
 
 ScytherEvosMoves:
@@ -599,11 +616,17 @@ OnixEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, BIND
-	db 19, ROCK_THROW
-	db 25, RAGE
-	db 33, SLAM
-	db 43, HARDEN
+	db 13, SAND_ATTACK
+	db 15, RAGE
+	db 19, SLAM
+	db 22, DIG
+	db 27, ROCK_SLIDE
+	db 33, BODY_SLAM
+	db 38, SCREECH
+	db 42, SKULL_BASH
+	db 45, BIND
+	db 48, EARTHQUAKE
+	db 53, FISSURE
 	db 0
 
 FearowEvosMoves:
@@ -806,12 +829,18 @@ DrowzeeEvosMoves:
 	db EVOLVE_LEVEL, 26, HYPNO
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 29, POISON_GAS
-	db 32, PSYCHIC_M
-	db 37, MEDITATE
+	db 9, CONFUSION
+	db 12, POISON_GAS
+	db 15, HEADBUTT
+	db 18, SMOKESCREEN
+	db 22, HYPNOSIS
+	db 25, SLUDGE
+	db 29, PSYBEAM
+	db 33, CONFUSE_RAY
+	db 36, MEDITATE
+	db 40, PSYCHIC_M
+	db 44, DOUBLE_EDGE
+	db 48, DREAM_EATER
 	db 0
 
 GolemEvosMoves:
@@ -1143,11 +1172,18 @@ KrabbyEvosMoves:
 	db EVOLVE_LEVEL, 28, KINGLER
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 30, STOMP
+	db 8, BUBBLE
+	db 12, HARDEN
+	db 16, STOMP
+	db 19, DIG
+	db 23, BUBBLEBEAM
+	db 27, SEISMIC_TOSS
+	db 31, SUBMISSION
 	db 35, CRABHAMMER
-	db 40, HARDEN
+	db 39, SWORDS_DANCE
+	db 42, THRASH
+	db 45, CLAMP
+	db 49, GUILLOTINE
 	db 0
 
 MissingNo4FEvosMoves:
@@ -1728,12 +1764,16 @@ HypnoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 12, DISABLE
-	db 17, CONFUSION
-	db 24, HEADBUTT
-	db 33, POISON_GAS
-	db 37, PSYCHIC_M
-	db 43, MEDITATE
+	db 15, HEADBUTT
+	db 18, SMOKESCREEN
+	db 22, HYPNOSIS
+	db 25, SLUDGE
+	db 31, PSYBEAM
+	db 35, CONFUSE_RAY
+	db 39, MEDITATE
+	db 44, PSYCHIC_M
+	db 48, DOUBLE_EDGE
+	db 53, DREAM_EATER
 	db 0
 
 GolbatEvosMoves:
@@ -1820,11 +1860,16 @@ KinglerEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, VICEGRIP
-	db 25, GUILLOTINE
-	db 34, STOMP
-	db 42, CRABHAMMER
-	db 49, HARDEN
+	db 16, STOMP
+	db 19, DIG
+	db 23, BUBBLEBEAM
+	db 27, SEISMIC_TOSS
+	db 33, SUBMISSION
+	db 38, CRABHAMMER
+	db 42, SWORDS_DANCE
+	db 46, THRASH
+	db 49, CLAMP
+	db 54, GUILLOTINE
 	db 0
 
 CloysterEvosMoves:
@@ -1903,11 +1948,18 @@ MissingNo92EvosMoves:
 
 HaunterEvosMoves:
 ; Evolutions
-	db EVOLVE_TRADE, 1, GENGAR
+	db EVOLVE_LEVEL, 40, GENGAR
 	db 0
 ; Learnset
-	db 29, HYPNOSIS
-	db 38, DREAM_EATER
+	db 13, CONFUSION
+	db 17, HYPNOSIS
+	db 21, MINIMIZE
+	db 28, NIGHT_SHADE
+	db 31, SLUDGE
+	db 37, CONFUSE_RAY
+	db 42, GROWTH
+	db 44, PSYCHIC_M
+	db 48, DREAM_EATER
 	db 0
 
 AbraEvosMoves:
