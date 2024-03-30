@@ -274,11 +274,17 @@ VoltorbEvosMoves:
 	db EVOLVE_LEVEL, 30, ELECTRODE
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 36, SWIFT
-	db 43, EXPLOSION
+	db 13, QUICK_ATTACK
+	db 15, FLASH
+	db 19, SELFDESTRUCT
+	db 22, THUNDER_WAVE
+	db 24, SWIFT
+	db 28, LIGHT_SCREEN
+	db 31, REFLECT
+	db 36, THUNDERBOLT
+	db 39, SCREECH
+	db 43, THUNDER
+	db 46, EXPLOSION
 	db 0
 
 NidokingEvosMoves:
@@ -334,11 +340,17 @@ LickitungEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, STOMP
-	db 15, DISABLE
-	db 23, DEFENSE_CURL
-	db 31, SLAM
-	db 39, SCREECH
+	db 9, DISABLE
+	db 13, SUPERSONIC
+	db 15, DOUBLE_KICK
+	db 17, STOMP
+	db 22, SLAM
+	db 27, CONFUSE_RAY
+	db 33, WRAP
+	db 37, BODY_SLAM
+	db 41, SCREECH
+	db 46, BIND
+	db 50, DOUBLE_EDGE
 	db 0
 
 ExeggcuteEvosMoves:
@@ -415,11 +427,17 @@ CuboneEvosMoves:
 	db EVOLVE_LEVEL, 28, MAROWAK
 	db 0
 ; Learnset
-	db 25, LEER
-	db 31, FOCUS_ENERGY
-	db 38, THRASH
-	db 43, BONEMERANG
-	db 46, RAGE
+	db 9, LEER
+	db 11, SAND_ATTACK
+	db 13, FOCUS_ENERGY
+	db 15, RAGE
+	db 18, HEADBUTT
+	db 21, BONE_CLUB
+	db 26, DIZZY_PUNCH
+	db 29, SUBMISSION
+	db 33, ROCK_SLIDE
+	db 37, SKULL_BASH
+	db 42, BONEMERANG
 	db 0
 
 RhyhornEvosMoves:
@@ -757,22 +775,34 @@ HitmonleeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, ROLLING_KICK
-	db 38, JUMP_KICK
-	db 43, FOCUS_ENERGY
-	db 48, HI_JUMP_KICK
-	db 53, MEGA_KICK
+	db 12, DOUBLE_KICK
+	db 17, SLAM
+	db 20, ROLLING_KICK
+	db 25, SWIFT
+	db 31, AGILITY
+	db 35, JUMP_KICK
+	db 38, BODY_SLAM
+	db 41, MEDITATE
+	db 44, HI_JUMP_KICK
+	db 47, THRASH
+	db 52, MEGA_KICK
 	db 0
 
 HitmonchanEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, FIRE_PUNCH
-	db 38, ICE_PUNCH
-	db 43, THUNDERPUNCH
-	db 48, MEGA_PUNCH
-	db 53, COUNTER
+	db 13, COMET_PUNCH
+	db 18, DIZZY_PUNCH
+	db 23, COUNTER
+	db 28, AGILITY
+	db 32, FIRE_PUNCH
+	db 33, THUNDERPUNCH
+	db 34, ICE_PUNCH
+	db 37, MEGA_PUNCH
+	db 41, BODY_SLAM
+	db 44, MEDITATE
+	db 48, THRASH
 	db 0
 
 ArbokEvosMoves:
@@ -916,11 +946,17 @@ KoffingEvosMoves:
 	db EVOLVE_LEVEL, 35, WEEZING
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 37, SMOKESCREEN
-	db 40, SELFDESTRUCT
-	db 45, HAZE
-	db 48, EXPLOSION
+	db 12, HARDEN
+	db 14, SMOG
+	db 17, HEADBUTT
+	db 21, SMOKESCREEN
+	db 25, SLUDGE
+	db 29, SELFDESTRUCT
+	db 33, ACID
+	db 37, HAZE
+	db 39, ACID_ARMOR
+	db 42, DOUBLE_EDGE
+	db 46, EXPLOSION
 	db 0
 
 MissingNo38EvosMoves:
@@ -1889,11 +1925,15 @@ ElectrodeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, SONICBOOM
-	db 22, SELFDESTRUCT
-	db 29, LIGHT_SCREEN
-	db 40, SWIFT
-	db 50, EXPLOSION
+	db 19, SELFDESTRUCT
+	db 22, THUNDER_WAVE
+	db 24, SWIFT
+	db 28, LIGHT_SCREEN
+	db 33, REFLECT
+	db 39, THUNDERBOLT
+	db 42, SCREECH
+	db 47, THUNDER
+	db 51, EXPLOSION
 	db 0
 
 ClefableEvosMoves:
@@ -1906,11 +1946,16 @@ WeezingEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 32, SLUDGE
-	db 39, SMOKESCREEN
-	db 43, SELFDESTRUCT
-	db 49, HAZE
-	db 53, EXPLOSION
+	db 17, HEADBUTT
+	db 21, SMOKESCREEN
+	db 25, SLUDGE
+	db 29, SELFDESTRUCT
+	db 33, ACID
+	db 37, TOXIC
+	db 39, HAZE
+	db 42, ACID_ARMOR
+	db 46, DOUBLE_EDGE
+	db 51, EXPLOSION
 	db 0
 
 PersianEvosMoves:
@@ -1933,11 +1978,16 @@ MarowakEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, LEER
-	db 33, FOCUS_ENERGY
-	db 41, THRASH
-	db 48, BONEMERANG
-	db 55, RAGE
+	db 13, FOCUS_ENERGY
+	db 15, RAGE
+	db 18, HEADBUTT
+	db 21, BONE_CLUB
+	db 26, DIZZY_PUNCH
+	db 31, SUBMISSION
+	db 36, ROCK_SLIDE
+	db 41, SKULL_BASH
+	db 47, BONEMERANG
+	db 53, FISSURE
 	db 0
 
 MissingNo92EvosMoves:
