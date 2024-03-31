@@ -497,9 +497,15 @@ MewEvosMoves:
 	db 0
 ; Learnset
 	db 10, TRANSFORM
-	db 20, MEGA_PUNCH
+	db 20, HYPNOSIS
 	db 30, METRONOME
-	db 40, PSYCHIC_M
+	db 40, AGILITY
+	db 50, PSYCHIC_M
+	db 60, CONFUSE_RAY
+	db 70, RECOVER
+	db 80, BARRIER
+	db 90, SUBSTITUTE
+	db 100, HYPER_BEAM
 	db 0
 
 GyaradosEvosMoves:
@@ -1156,11 +1162,17 @@ DragoniteEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
-	db 60, HYPER_BEAM
+	db 15, THUNDER_WAVE
+	db 18, SLAM
+	db 22, BUBBLEBEAM
+	db 26, DRAGON_RAGE
+	db 33, WRAP
+	db 37, AGILITY
+	db 41, BODY_SLAM
+	db 45, BARRIER
+	db 48, BIND
+	db 55, WING_ATTACK
+	db 62, HYPER_BEAM
 	db 0
 
 MissingNo43EvosMoves:
@@ -1233,27 +1245,51 @@ MoltresEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, LEER
-	db 55, AGILITY
-	db 60, SKY_ATTACK
+	db 16, WHIRLWIND
+	db 19, WING_ATTACK
+	db 23, SWIFT
+	db 27, MIRROR_MOVE
+	db 32, MEDITATE
+	db 37, DRILL_PECK
+	db 42, AGILITY
+	db 48, FLAMETHROWER
+	db 53, FIRE_SPIN
+	db 58, FIRE_BLAST
+	db 63, SKY_ATTACK
 	db 0
 
 ArticunoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, BLIZZARD
-	db 55, AGILITY
-	db 60, MIST
+	db 16, WHIRLWIND
+	db 19, WING_ATTACK
+	db 23, SWIFT
+	db 27, REST
+	db 32, MIST
+	db 37, BODY_SLAM
+	db 42, AGILITY
+	db 48, ICE_BEAM
+	db 53, HAZE
+	db 58, BLIZZARD
+	db 63, SKY_ATTACK
 	db 0
 
 ZapdosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 51, THUNDER
-	db 55, AGILITY
-	db 60, LIGHT_SCREEN
+	db 16, WHIRLWIND
+	db 19, WING_ATTACK
+	db 23, SWIFT
+	db 27, REFLECT
+	db 32, LIGHT_SCREEN
+	db 37, DRILL_PECK
+	db 42, AGILITY
+	db 48, THUNDERBOLT
+	db 53, BARRIER
+	db 58, THUNDER
+	db 63, SKY_ATTACK
 	db 0
 
 DittoEvosMoves:
@@ -1370,11 +1406,16 @@ DratiniEvosMoves:
 	db EVOLVE_LEVEL, 30, DRAGONAIR
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 30, SLAM
-	db 40, DRAGON_RAGE
-	db 50, HYPER_BEAM
+	db 13, WATER_GUN
+	db 15, THUNDER_WAVE
+	db 18, SLAM
+	db 22, BUBBLEBEAM
+	db 26, DRAGON_RAGE
+	db 31, WRAP
+	db 35, AGILITY
+	db 38, BODY_SLAM
+	db 41, BARRIER
+	db 43, BIND
 	db 0
 
 DragonairEvosMoves:
@@ -1382,11 +1423,16 @@ DragonairEvosMoves:
 	db EVOLVE_LEVEL, 55, DRAGONITE
 	db 0
 ; Learnset
-	db 10, THUNDER_WAVE
-	db 20, AGILITY
-	db 35, SLAM
-	db 45, DRAGON_RAGE
-	db 55, HYPER_BEAM
+	db 15, THUNDER_WAVE
+	db 18, SLAM
+	db 22, BUBBLEBEAM
+	db 26, DRAGON_RAGE
+	db 33, WRAP
+	db 37, AGILITY
+	db 41, BODY_SLAM
+	db 45, BARRIER
+	db 48, BIND
+	db 57, HYPER_BEAM
 	db 0
 
 KabutoEvosMoves:
@@ -1944,11 +1990,17 @@ MewtwoEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 63, BARRIER
-	db 66, PSYCHIC_M
-	db 70, RECOVER
-	db 75, MIST
-	db 81, AMNESIA
+	db 23, PSYWAVE
+	db 25, HYPNOSIS
+	db 28, LIGHT_SCREEN
+	db 32, REFLECT
+	db 37, PSYBEAM
+	db 43, CONFUSE_RAY
+	db 50, RECOVER
+	db 58, BARRIER
+	db 67, PSYCHIC_M
+	db 77, AMNESIA
+	db 88, HYPER_BEAM
 	db 0
 
 SnorlaxEvosMoves:
