@@ -473,12 +473,17 @@ LaprasEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 16, SING
-	db 20, MIST
-	db 25, BODY_SLAM
-	db 31, CONFUSE_RAY
-	db 38, ICE_BEAM
-	db 46, HYDRO_PUMP
+	db 15, HORN_ATTACK
+	db 19, BUBBLEBEAM
+	db 23, AURORA_BEAM
+	db 27, LIGHT_SCREEN
+	db 33, REFLECT
+	db 35, MIST
+	db 38, BODY_SLAM
+	db 41, CONFUSE_RAY
+	db 45, ICE_BEAM
+	db 51, BLIZZARD
+	db 56, HYDRO_PUMP
 	db 0
 
 ArcanineEvosMoves:
@@ -1389,20 +1394,32 @@ KabutoEvosMoves:
 	db EVOLVE_LEVEL, 40, KABUTOPS
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 44, LEER
-	db 49, HYDRO_PUMP
+	db 11, LEECH_LIFE
+	db 13, HARDEN
+	db 16, SAND_ATTACK
+	db 20, DIG
+	db 24, BUBBLEBEAM
+	db 28, ROCK_SLIDE
+	db 33, SLASH
+	db 37, AGILITY
+	db 44, THRASH
+	db 48, HYDRO_PUMP
 	db 0
 
 KabutopsEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, ABSORB
-	db 39, SLASH
-	db 46, LEER
+	db 16, SAND_ATTACK
+	db 20, DIG
+	db 24, BUBBLEBEAM
+	db 28, ROCK_SLIDE
+	db 33, SLASH
+	db 37, AGILITY
+	db 44, SWORDS_DANCE
+	db 48, THRASH
 	db 53, HYDRO_PUMP
+	db 58, GUILLOTINE
 	db 0
 
 HorseaEvosMoves:
@@ -1487,20 +1504,32 @@ OmanyteEvosMoves:
 	db EVOLVE_LEVEL, 40, OMASTAR
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
-	db 46, SPIKE_CANNON
-	db 53, HYDRO_PUMP
+	db 11, WATER_GUN
+	db 13, WITHDRAW
+	db 16, HORN_ATTACK
+	db 20, SMOKESCREEN
+	db 24, BUBBLEBEAM
+	db 28, ROCK_SLIDE
+	db 33, WRAP
+	db 42, SPIKE_CANNON
+	db 44, BIND
+	db 48, HYDRO_PUMP
 	db 0
 
 OmastarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, HORN_ATTACK
-	db 39, LEER
+	db 16, HORN_ATTACK
+	db 20, SMOKESCREEN
+	db 24, BUBBLEBEAM
+	db 28, ROCK_SLIDE
+	db 33, WRAP
+	db 37, BARRIER
 	db 44, SPIKE_CANNON
-	db 49, HYDRO_PUMP
+	db 48, BIND
+	db 53, HYDRO_PUMP
+	db 58, HORN_DRILL
 	db 0
 
 JigglypuffEvosMoves:
@@ -1926,10 +1955,18 @@ SnorlaxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 35, BODY_SLAM
-	db 41, HARDEN
+	db 13, RAGE
+	db 17, HEADBUTT
+	db 21, COMET_PUNCH
+	db 25, METRONOME
+	db 28, DIZZY_PUNCH
+	db 33, REST
+	db 37, COUNTER
+	db 41, BODY_SLAM
+	db 45, AMNESIA
 	db 48, DOUBLE_EDGE
-	db 56, HYPER_BEAM
+	db 52, EARTHQUAKE
+	db 57, HYPER_BEAM
 	db 0
 
 MagikarpEvosMoves:
@@ -2384,20 +2421,35 @@ PorygonEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 23, PSYBEAM
-	db 28, RECOVER
-	db 35, AGILITY
-	db 42, TRI_ATTACK
+	db 12, CONFUSION
+	db 16, HEADBUTT
+	db 20, SHARPEN
+	db 25, TAKE_DOWN
+	db 29, PSYBEAM
+	db 33, AGILITY
+	db 37, TRI_ATTACK
+	db 41, RECOVER
+	db 44, PSYCHIC_M
+	db 48, AMNESIA
+	db 51, SUBSTITUTE
+	db 56, HYPER_BEAM
 	db 0
 
 AerodactylEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 33, SUPERSONIC
-	db 38, BITE
-	db 45, TAKE_DOWN
-	db 54, HYPER_BEAM
+	db 12, BITE
+	db 16, ROAR
+	db 20, WING_ATTACK
+	db 24, TAKE_DOWN
+	db 28, DRAGON_RAGE
+	db 33, AGILITY
+	db 38, ROCK_SLIDE
+	db 43, SCREECH
+	db 48, DOUBLE_EDGE
+	db 53, SKY_ATTACK
+	db 58, HYPER_BEAM
 	db 0
 
 MissingNoACEvosMoves:
