@@ -501,11 +501,18 @@ GyaradosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 20, BITE
-	db 25, DRAGON_RAGE
-	db 32, LEER
-	db 41, HYDRO_PUMP
-	db 52, HYPER_BEAM
+	db 20, DRAGON_RAGE
+	db 22, LEER
+	db 24, BITE
+	db 26, BUBBLEBEAM
+	db 29, SLAM
+	db 32, WATERFALL
+	db 35, AGILITY
+	db 39, SCREECH
+	db 43, THRASH
+	db 48, RAZOR_WIND
+	db 53, HYDRO_PUMP
+	db 58, HYPER_BEAM
 	db 0
 
 ShellderEvosMoves:
@@ -560,12 +567,17 @@ ScytherEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 17, LEER
-	db 20, FOCUS_ENERGY
-	db 24, DOUBLE_TEAM
+	db 12, DOUBLE_KICK
+	db 14, FOCUS_ENERGY
+	db 18, FURY_SWIPES
+	db 22, DOUBLE_TEAM
+	db 24, WING_ATTACK
 	db 29, SLASH
-	db 35, SWORDS_DANCE
-	db 42, AGILITY
+	db 31, TAKE_DOWN
+	db 37, AGILITY
+	db 41, SWORDS_DANCE
+	db 47, DOUBLE_EDGE
+	db 51, RAZOR_WIND
 	db 0
 
 StaryuEvosMoves:
@@ -602,12 +614,17 @@ PinsirEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 25, SEISMIC_TOSS
-	db 30, GUILLOTINE
-	db 36, FOCUS_ENERGY
-	db 43, HARDEN
-	db 49, SLASH
-	db 54, SWORDS_DANCE
+	db 12, KARATE_CHOP
+	db 14, FOCUS_ENERGY
+	db 18, HORN_ATTACK
+	db 22, HARDEN
+	db 24, SEISMIC_TOSS
+	db 29, SLASH
+	db 31, PIN_MISSILE
+	db 37, BARRIER
+	db 41, SWORDS_DANCE
+	db 47, THRASH
+	db 53, GUILLOTINE
 	db 0
 
 TangelaEvosMoves:
@@ -790,11 +807,18 @@ MrMimeEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 15, CONFUSION
-	db 23, LIGHT_SCREEN
-	db 31, DOUBLESLAP
+	db 13, DOUBLESLAP
+	db 15, MIMIC
+	db 19, METRONOME
+	db 23, HYPNOSIS
+	db 27, LIGHT_SCREEN
+	db 31, PSYBEAM
+	db 33, REFLECT
+	db 36, COUNTER
 	db 39, MEDITATE
-	db 47, SUBSTITUTE
+	db 41, BARRIER
+	db 45, PSYCHIC_M
+	db 49, SUBSTITUTE
 	db 0
 
 HitmonleeEvosMoves:
@@ -926,12 +950,17 @@ MagmarEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 36, LEER
-	db 39, CONFUSE_RAY
-	db 43, FIRE_PUNCH
-	db 48, SMOKESCREEN
-	db 52, SMOG
-	db 55, FLAMETHROWER
+	db 12, SMOG
+	db 14, FOCUS_ENERGY
+	db 19, SMOKESCREEN
+	db 24, FIRE_PUNCH
+	db 29, PSYWAVE
+	db 33, CONFUSE_RAY
+	db 35, BODY_SLAM
+	db 39, AGILITY
+	db 44, FLAMETHROWER
+	db 47, AMNESIA
+	db 52, FIRE_BLAST
 	db 0
 
 MissingNo34EvosMoves:
@@ -944,11 +973,17 @@ ElectabuzzEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 34, THUNDERSHOCK
-	db 37, SCREECH
-	db 42, THUNDERPUNCH
-	db 49, LIGHT_SCREEN
-	db 54, THUNDER
+	db 12, QUICK_ATTACK
+	db 14, FOCUS_ENERGY
+	db 19, THUNDER_WAVE
+	db 24, THUNDERPUNCH
+	db 29, MEGA_PUNCH
+	db 33, REFLECT
+	db 35, LIGHT_SCREEN
+	db 39, AGILITY
+	db 44, THUNDERBOLT
+	db 47, SCREECH
+	db 52, THUNDER
 	db 0
 
 MagnetonEvosMoves:
@@ -1049,11 +1084,17 @@ TaurosEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 21, STOMP
-	db 28, TAIL_WHIP
-	db 35, LEER
-	db 44, RAGE
-	db 51, TAKE_DOWN
+	db 15, RAGE
+	db 18, STOMP
+	db 21, ROAR
+	db 25, SWIFT
+	db 29, TAKE_DOWN
+	db 33, REST
+	db 37, BODY_SLAM
+	db 42, SCREECH
+	db 47, EARTHQUAKE
+	db 54, HYPER_BEAM
+	db 60, HORN_DRILL
 	db 0
 
 MissingNo3DEvosMoves:
@@ -1170,12 +1211,17 @@ JynxEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 18, LICK
-	db 23, DOUBLESLAP
-	db 31, ICE_PUNCH
-	db 39, BODY_SLAM
-	db 47, THRASH
-	db 58, BLIZZARD
+	db 11, CONFUSION
+	db 15, DOUBLESLAP
+	db 19, LOVELY_KISS
+	db 23, ICE_PUNCH
+	db 27, PSYBEAM
+	db 31, MIST
+	db 37, BODY_SLAM
+	db 41, ICE_BEAM
+	db 45, PSYCHIC_M
+	db 48, THRASH
+	db 53, BLIZZARD
 	db 0
 
 MoltresEvosMoves:
@@ -1891,7 +1937,7 @@ MagikarpEvosMoves:
 	db EVOLVE_LEVEL, 20, GYARADOS
 	db 0
 ; Learnset
-	db 15, TACKLE
+	db 10, TACKLE
 	db 0
 
 MissingNo86EvosMoves:
